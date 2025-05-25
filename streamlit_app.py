@@ -114,8 +114,4 @@ st.write("")
 
 st.image("images/square/3squares.png")
 
-col1, col2 = st.columns(2)
-with col1:
-    left_aligned("Merci à tous 💖", caption=True)
-with col2:
-    right_aligned("Thanks to all 💖", caption=True)
+st.caption("Merci à tous 💖")
